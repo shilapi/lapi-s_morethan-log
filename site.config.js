@@ -1,9 +1,9 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "shilapi",
+    name: "Shilapi",
     image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "睡门主教🙏\nCofounder & CSO of Sleepy Shark LTD",
+    role: "Cofounder & CSO of Sleepy Shark LTD",
     bio: "Stat: Alive",
     email: "lapi@lapiw.icu",
     github: "shilapi",
