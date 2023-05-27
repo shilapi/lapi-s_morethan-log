@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: "Shilapi",
     image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Cofounder & CSO of Sleepy Shark LTD",
+    role: "CSO of Sleepy Shark LTD",
     bio: "Stat: Alive",
     email: "lapi@lapiw.icu",
     github: "shilapi",
@@ -11,7 +11,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `lapi-s_morethan-log`,
+      name: `Morethan log`,
       href: "https://github.com/shilapi/lapi-s_morethan-log",
     },
   ],

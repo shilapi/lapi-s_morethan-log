@@ -31,7 +31,7 @@ const ContactCard: React.FC = () => {
             className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
             <AiOutlineTwitter className="text-2xl" />
-            <div className="text-sm">instagram</div>
+            <div className="text-sm">Twitter</div>
           </a>
         )}
         {CONFIG.profile.email && (
