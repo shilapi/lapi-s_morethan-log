@@ -36,7 +36,7 @@ const MobileProfileCard: React.FC<Props> = () => {
             <div className="text-sm">{CONFIG.profile.bio}</div>
           </div>
         </div>
-        { <div className="flex">
+        <div className="flex">
           {/*CONFIG.profile.github && (
             <a
               href={`https://github.com/${CONFIG.profile.github}`}
@@ -85,8 +85,7 @@ const MobileProfileCard: React.FC<Props> = () => {
           >
             <AiFillTwitterCircle className="text-2xl flex-shrink-0" />
           </a>
-        )}
-        </div> */}
+        </div> }
       </div>
     </div>
   )
