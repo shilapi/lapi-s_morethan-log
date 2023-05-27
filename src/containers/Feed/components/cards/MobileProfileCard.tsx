@@ -85,7 +85,7 @@ const MobileProfileCard: React.FC<Props> = () => {
           >
             <AiFillTwitterCircle className="text-2xl flex-shrink-0" />
           </a>
-        </div> }
+        )</div> }
       </div>
     </div>
   )
