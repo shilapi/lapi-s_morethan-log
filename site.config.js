@@ -2,12 +2,12 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "shilapi",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "一个臭玩卡的",
-    bio: "Nothing to see here.",
+    image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "睡门主教🙏\nCofounder & CSO of Sleepy Shark LTD",
+    bio: "Stat: Alive",
     email: "lapi@lapiw.icu",
     github: "shilapi",
-    instagram: "",
+    twitter: "shilapiw",
   },
   projects: [
     {
