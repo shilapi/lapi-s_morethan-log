@@ -6,7 +6,7 @@ import {
   AiOutlineTwitter,
   AiOutlineGithub,
   AiOutlineMail,
-  AiFillTwitter,
+  AiFillTwitterCircle,
 } from "react-icons/ai"
 
 type Props = {
