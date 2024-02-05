@@ -1,10 +1,9 @@
 import { CONFIG } from "site.config"
 import React from "react"
 import {
-  AiOutlineInstagram,
+  AiOutlineTwitter,
   AiOutlineGithub,
   AiOutlineMail,
-  AiFillLinkedin,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
 
