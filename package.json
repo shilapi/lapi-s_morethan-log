@@ -30,7 +30,8 @@
     "react-cusdis": "^2.1.3",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
-    "react-notion-x": "^6.16.0"
+    "react-notion-x": "^6.16.0",
+    "@vercel/speed-insights"
   },
   "devDependencies": {
     "@types/gtag.js": "^0.0.12",
