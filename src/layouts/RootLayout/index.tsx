@@ -1,5 +1,6 @@
 import React, { ReactNode, useEffect } from "react"
 import { ThemeProvider } from "./ThemeProvider"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import useScheme from "src/hooks/useScheme"
 import Header from "./Header"
 import styled from "@emotion/styled"
@@ -58,6 +59,7 @@ const RootLayout = ({ children }: Props) => {
       {/* {metaConfig.type !== "Paper" && <Header />} */}
       <Header fullWidth={false} />
       <StyledMain>{children}</StyledMain>
+      <Analytics />
     </ThemeProvider>
   )
 }
