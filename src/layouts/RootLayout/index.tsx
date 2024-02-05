@@ -1,6 +1,6 @@
 import React, { ReactNode, useEffect } from "react"
 import { ThemeProvider } from "./ThemeProvider"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
 import useScheme from "src/hooks/useScheme"
 import Header from "./Header"
 import styled from "@emotion/styled"
