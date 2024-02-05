@@ -34,14 +34,15 @@ const ContactCard: React.FC = () => {
             <div className="name">email</div>
           </a>
         )}
-        {CONFIG.profile.linkedin && (
+        {CONFIG.profile.twitter && (
           <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
+            href={`https://twitter.com/${CONFIG.profile.twitter}`}
             rel="noreferrer"
             target="_blank"
+            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiFillLinkedin className="icon" />
-            <div className="name">linkedin</div>
+            <AiOutlineTwitter className="text-2xl" />
+            <div className="text-sm">Twitter</div>
           </a>
         )}
       </StyledWrapper>
