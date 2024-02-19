@@ -17,7 +17,6 @@ const Header: React.FC<Props> = ({ fullWidth }) => {
           <ThemeToggle />
           <NavBar />
         </div>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8711508045175993" crossorigin="anonymous"></script>
       </div>
     </StyledWrapper>
   )
