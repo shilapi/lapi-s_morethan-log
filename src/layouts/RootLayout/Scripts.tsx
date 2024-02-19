@@ -8,9 +8,6 @@ const Scripts: React.FC = () => (
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${CONFIG.googleAnalytics.config.measurementId}`}
         />
-        <Script
-          async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8711508045175993" crossorigin="anonymous"
-        />
         <Script strategy="lazyOnload" id="ga">
           {`window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
