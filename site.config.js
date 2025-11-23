@@ -7,7 +7,7 @@ const CONFIG = {
     bio: "Stat: Alive",
     email: "lapi@lapiw.icu",
     github: "shilapi",
-    twitter: "shilapiw",
+    twitter: "__shilapi__",
   },
   projects: [
     {
